@@ -1,0 +1,87 @@
+body {
+    background-color :rgb(230, 211, 230);
+}
+
+h1, h3 { 
+    color :white;
+    transition: color .5s ease-in-out;
+    text-align:center;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.form,
+.greetings {
+    display: none;
+    color : white;
+    text-align:center;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.showing {
+    display: block;
+}
+
+@keyframes fadeIN {
+    from {
+        opacity : 0;
+    }
+    to {
+        opacity : 1.5;
+    }
+}
+
+.bgimage {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation : fadeIN 0.5s linear;
+}
+
+.js-toDoForm, .js-clock{
+    color : white;
+    text-align:center;
+}
+
+input{
+    background : transparent;
+    border : none;
+    text-shadow: 1px 1px 2px gray;
+}
+
+input::-webkit-input-placeholder {
+    opacity : 1;
+    color:white;
+    border-bottom :white 5px solid;
+}
+
+.js-weather{
+    color: white;
+    position:relative; 
+    top:50%; 
+    left:50%;
+    margin-top: 500px; 
+    margin-left:-150px; 
+    width:200px; height:200px; 
+    text-shadow: 5px 5px 5px gray;
+}
+
+
+ul{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px gray;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    font-size : 1.5em;
+    border : none;
+}
+    
