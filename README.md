@@ -1,6 +1,7 @@
 # JavaScript_Basic
 
 Nomard Corders의 바닐라 JS로 Chrome APP 만들기 학습을 진행하였습니다.
+Thank you! Nicolas!
 
 <학습내용>
 1. HTML, CSS 기본 기능 (배경화면, console.log)
